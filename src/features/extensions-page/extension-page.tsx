@@ -12,7 +12,7 @@ interface Props {
 export const ExtensionPage: FC<Props> = (props) => {
   return (
     <ScrollArea className="flex-1">
-      <main className="flex flex-1 flex-col">
+      <main className="flex flex-1 px-4 flex-col">
         <ExtensionHero />
         <div className="container max-w-4xl py-3">
           <div className="grid grid-cols-3 gap-3">

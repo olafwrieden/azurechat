@@ -25,7 +25,7 @@ interface ChatReportingProps {
 export const ChatReportingPage: FC<ChatReportingProps> = async (props) => {
   return (
     <ScrollArea className="flex-1">
-      <main className="flex flex-1 flex-col">
+      <main className="flex flex-1 px-4 flex-col">
         <ReportingHero />
         <Suspense fallback={<PageLoader />} key={props.page}>
           <ReportingContent {...props} />
